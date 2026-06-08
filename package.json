@@ -1,0 +1,28 @@
+{
+  "name": "@nocobase/plugin-workflow-mailer-plus-dev3",
+  "displayName": "Workflow: Mailer Plus (dev3)",
+  "displayName.zh-CN": "工作流：邮件增强",
+  "displayName.ja-JP": "ワークフロー：メール送信＋",
+  "description": "Enhanced email sending with attachment support for workflows.",
+  "description.zh-CN": "工作流邮件发送增强版，支持附件。",
+  "description.ja-JP": "添付ファイル対応のワークフローメール送信拡張。",
+  "version": "2.1.0-beta.11",
+  "license": "Apache-2.0",
+  "main": "./dist/server/index.js",
+  "devDependencies": {
+    "antd": "5.x",
+    "nodemailer": "6.9.13",
+    "react": "18.x"
+  },
+  "peerDependencies": {
+    "@nocobase/client": "2.x",
+    "@nocobase/plugin-workflow": ">=0.17.0-alpha.3",
+    "@nocobase/server": "2.x"
+  },
+  "keywords": [
+    "Workflow",
+    "SMTP",
+    "email",
+    "attachment"
+  ]
+}
